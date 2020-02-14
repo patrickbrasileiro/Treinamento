@@ -3,7 +3,7 @@ package exec7;
 import javax.swing.JOptionPane;
 
 /**
- * classe responsavel controle de vsrro
+ * classe responsavel c
  * 
  * @author pbrasileiro
  * @vesion 0.1
@@ -18,6 +18,7 @@ public class Carro {
 	int valor;
 	String corcarro;
 	boolean vendido = false;
+	String compra;
 
 //contrutor vazio:	
 	public Carro() {
