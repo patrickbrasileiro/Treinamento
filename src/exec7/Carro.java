@@ -16,7 +16,7 @@ public class Carro {
 	int velocidadeMax;
 	String combustivel;
 	int valor;
-	String corcarro;
+	String corCarro;
 	boolean vendido = false;
 	String compra;
 
@@ -26,14 +26,14 @@ public class Carro {
 	}
 
 	public Carro(String modeloCarro, String placaCarro, int velocidadeMax, String combustivel, int valor,
-			String corcarro) {
+			String corCarro) {
 
 		this.modeloCarro = modeloCarro;
 		this.placaCarro = placaCarro;
 		this.velocidadeMax = velocidadeMax;
 		this.combustivel = combustivel;
 		this.valor = valor;
-		this.corcarro = corcarro;
+		this.corCarro = corCarro;
 	}
 
 	public void exibir() {
